@@ -1,5 +1,11 @@
 # @envoy1084/example
 
+## 0.0.6
+
+### Patch Changes
+
+-   4689df4: fixx
+
 ## 0.0.5
 
 ### Patch Changes
