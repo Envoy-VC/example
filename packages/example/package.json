@@ -1,0 +1,42 @@
+{
+    "name": "@envoy1084/example",
+    "version": "0.0.0",
+    "description": "Toolkit for creating Atomic Assets on Arweave using Warp Contracts",
+    "private": false,
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "dev": "vitest",
+        "test": "vitest run",
+        "build": "tsup src/index.ts --format cjs,esm --dts",
+        "lint": "tsc",
+        "ci": "pnpm run lint && pnpm run test && pnpm run build",
+        "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "arweave",
+        "atomic",
+        "assets",
+        "warp",
+        "contracts"
+    ],
+    "author": "Vedant Chainani",
+    "license": "MIT",
+    "devDependencies": {
+        "@changesets/cli": "^2.27.1",
+        "@irys/sdk": "^0.1.1",
+        "@types/node": "^18.19.3",
+        "arbundles": "^0.10.0",
+        "dotenv": "^16.3.1",
+        "ethers": "v5",
+        "tsup": "^8.0.1",
+        "typescript": "^5.3.3",
+        "vitest": "^1.0.4",
+        "warp-contracts": "^1.4.26",
+        "warp-contracts-plugin-deploy": "^1.0.12"
+    }
+}
