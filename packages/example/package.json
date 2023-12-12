@@ -6,6 +6,9 @@
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
+    "files": [
+        "dist/**"
+    ],
     "scripts": {
         "dev": "vitest",
         "test": "vitest run",
@@ -35,5 +38,8 @@
         "vitest": "^1.0.4",
         "warp-contracts": "^1.4.26",
         "warp-contracts-plugin-deploy": "^1.0.12"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
