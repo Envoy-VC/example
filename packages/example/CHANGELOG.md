@@ -1,5 +1,11 @@
 # @envoy1084/example
 
+## 0.0.5
+
+### Patch Changes
+
+-   c46a071: fix 3
+
 ## 0.0.4
 
 ### Patch Changes
