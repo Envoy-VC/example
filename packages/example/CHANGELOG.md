@@ -1,5 +1,11 @@
 # @envoy1084/example
 
+## 0.0.3
+
+### Patch Changes
+
+-   827d52c: test
+
 ## 0.0.2
 
 ### Patch Changes
