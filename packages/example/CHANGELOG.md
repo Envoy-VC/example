@@ -1,5 +1,12 @@
 # @envoy1084/example
 
+## 0.0.4
+
+### Patch Changes
+
+-   59de94b: fix: no dist
+-   59de94b: fix: no dist
+
 ## 0.0.3
 
 ### Patch Changes
