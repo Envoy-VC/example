@@ -14,9 +14,6 @@
         "ci": "pnpm run lint && pnpm run test && pnpm run build",
         "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
     },
-    "files": [
-        "dist"
-    ],
     "keywords": [
         "arweave",
         "atomic",
