@@ -1,6 +1,6 @@
 {
     "name": "@envoy1084/example",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Toolkit for creating Atomic Assets on Arweave using Warp Contracts",
     "private": false,
     "main": "./dist/index.js",
